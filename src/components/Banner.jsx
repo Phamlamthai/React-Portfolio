@@ -57,11 +57,11 @@ export default function Banner() {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi I'm MeouW`}{" "}
+                    {`Hi, I'm MeoW - `}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod={1000}
-                      data-rotate='[ "Web Developer", "Software Engineer", "AI Engineer" ]'
+                      data-rotate='[ "FE Developer", "Software Engineer", "AI Engineer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>

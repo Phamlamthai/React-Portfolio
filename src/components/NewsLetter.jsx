@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Alert, Col } from "react-bootstrap";
 
 export default function NewsLetter({ status, message, onValidated }) {
