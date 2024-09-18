@@ -33,9 +33,10 @@ export default function Skills() {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                The skills in JS, TS, NodeJS, or NextJS, etc., were all
+                self-taught and learned through the projects I have worked on.I
+                hope to have the opportunity to work in a professional
+                environment to further improve my skills.
               </p>
               <Carousel
                 responsive={responsive}
@@ -44,19 +45,19 @@ export default function Skills() {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>TypeScript</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <h5>NodeJS</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>NextJS</h5>
                 </div>
               </Carousel>
             </div>

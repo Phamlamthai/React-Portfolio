@@ -95,6 +95,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 nav.navbar a.navbar-brand {
   width: 9%;
+  filter: brightness(1) invert(0);
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {

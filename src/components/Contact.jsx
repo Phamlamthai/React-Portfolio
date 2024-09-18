@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/contact.webp";
 export default function Contact() {
   const formInitialDetails = {
     firstName: "",
@@ -11,7 +11,7 @@ export default function Contact() {
     phone: "",
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState("send");
+  const [buttonText, setButtonText] = useState("Send");
   const [status, setStatus] = useState({});
   const onUpdateForm = (category, value) => {
     setFormDetails({
@@ -36,7 +36,7 @@ export default function Contact() {
     } else {
       setStatus({
         success: false,
-        message: "Message sent unsuccessfully,Please try again!",
+        message: "Message sent unsuccessfully, Please try again!",
       });
     }
   };
@@ -65,7 +65,7 @@ export default function Contact() {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Get In Touch</h2>
+                  <h2>Contact With Me</h2>
                   <form onSubmit={handleSubmit}>
                     <Row>
                       <Col size={12} md={6} className="px-1">

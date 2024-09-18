@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project-img1.jpg";
+import projImg2 from "../assets/img/project-img2.jpg";
+import projImg3 from "../assets/img/project-img3.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import "animate.css";
 import ProjectCard from "./ProjectCard";
@@ -11,35 +11,25 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "E-commerce Website",
+      description: "Developed with ReactJS",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "My Portfolio",
+      description: "Designed with React",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "E-commerce Website",
+      description: "Designed & Developed with PHP",
       imgUrl: projImg3,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg1,
+    // },
   ];
   return (
     <section className="project" id="projects">
@@ -55,11 +45,11 @@ export default function Projects() {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Below are the projects that I have done myself or the
+                    projects I have researched and learned about on social
+                    media.I think that although they may not be the best or most
+                    innovative projects, I believe they are a foundation that
+                    will help me improve my thinking skills.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -92,20 +82,14 @@ export default function Projects() {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                          Let's explore more my project at here <br />
+                          <i>https://github.com/Phamlamthai</i>
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                          Let's explore more my project at here <br />
+                          <i>https://github.com/Phamlamthai</i>
                         </p>
                       </Tab.Pane>
                     </Tab.Content>
